@@ -14,3 +14,8 @@ git push production-heroku master:master
 
 Push to Staging:
 git push staging-heroku master:master
+
+
+Remember to kill the process after terminate "nodejs":
+ps -e | grep -i node
+kill -9 xxxx
